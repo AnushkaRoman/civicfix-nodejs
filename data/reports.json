@@ -1,0 +1,15 @@
+[
+  {
+    "id": "CF-76727",
+    "name": "Anushka Namdev Roman",
+    "email": "romananushka03@gmail.com",
+    "category": "Pothole",
+    "location": "FC Road, Pune",
+    "severity": "High",
+    "description": "A large pothole has developed near the main road and is creating a significant risk for two-wheelers and pedestrians.",
+    "dateObserved": "2026-10-24",
+    "priority": "HIGH",
+    "status": "Reported",
+    "createdAt": "2026-10-24T11:20:40.462Z"
+  }
+]

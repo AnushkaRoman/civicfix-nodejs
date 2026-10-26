@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CivicFix | Dashboard</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        Civic<span>Fix</span>
+    </div>
+
+    <nav>
+        <a href="/">Report Issue</a>
+        <a href="/dashboard.html">Dashboard</a>
+    </nav>
+
+</header>
+
+<main class="container">
+
+    <section class="hero">
+
+        <p class="eyebrow">
+            OPERATIONS CENTER
+        </p>
+
+        <h1>
+            Civic Issue Dashboard
+        </h1>
+
+        <p>
+            Monitor reported infrastructure issues
+            and their current status.
+        </p>
+
+    </section>
+
+    <section class="stats-grid">
+
+        <div class="stat-card">
+            <span>Total Reports</span>
+            <strong id="total">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>Reported</span>
+            <strong id="reported">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>Verified</span>
+            <strong id="verified">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>In Progress</span>
+            <strong id="inProgress">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>Resolved</span>
+            <strong id="resolved">0</strong>
+        </div>
+
+        <div class="stat-card urgent">
+            <span>Urgent</span>
+            <strong id="urgent">0</strong>
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Recent Reports</h2>
+
+        <div id="reports">
+            Loading reports...
+        </div>
+
+    </section>
+
+</main>
+
+<script src="/js/dashboard.js"></script>
+
+</body>
+</html>

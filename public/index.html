@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CivicFix | Report an Issue</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        Civic<span>Fix</span>
+    </div>
+
+    <nav>
+        <a href="/">Report Issue</a>
+        <a href="/dashboard.html">Dashboard</a>
+    </nav>
+
+</header>
+
+<main class="container">
+
+    <section class="hero">
+
+        <div>
+            <p class="eyebrow">
+                SMART CIVIC INFRASTRUCTURE
+            </p>
+
+            <h1>
+                Report problems.<br>
+                Improve your city.
+            </h1>
+
+            <p>
+                Help identify civic infrastructure issues
+                and send verified reports to the municipal
+                workflow.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Report a Civic Issue</h2>
+
+        <p class="subtitle">
+            All information is validated securely on the server.
+        </p>
+
+        <div id="message"></div>
+
+        <form id="reportForm">
+
+            <div class="form-grid">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="category">
+                        Issue Category
+                    </label>
+
+                    <select
+                        id="category"
+                        name="category"
+                    >
+
+                        <option value="">
+                            Select category
+                        </option>
+
+                        <option value="Pothole">
+                            Pothole
+                        </option>
+
+                        <option value="Streetlight">
+                            Streetlight
+                        </option>
+
+                        <option value="Garbage">
+                            Garbage
+                        </option>
+
+                        <option value="Water Leakage">
+                            Water Leakage
+                        </option>
+
+                        <option value="Footpath">
+                            Footpath
+                        </option>
+
+                        <option value="Traffic Sign">
+                            Traffic Sign
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="severity">
+                        Severity
+                    </label>
+
+                    <select
+                        id="severity"
+                        name="severity"
+                    >
+
+                        <option value="">
+                            Select severity
+                        </option>
+
+                        <option value="Low">
+                            Low
+                        </option>
+
+                        <option value="Medium">
+                            Medium
+                        </option>
+
+                        <option value="High">
+                            High
+                        </option>
+
+                        <option value="Critical">
+                            Critical
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group full">
+
+                    <label for="location">
+                        Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="location"
+                        name="location"
+                        placeholder="e.g. FC Road, Pune"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="dateObserved">
+                        Date Observed
+                    </label>
+
+                    <input
+                        type="date"
+                        id="dateObserved"
+                        name="dateObserved"
+                    >
+
+                </div>
+
+                <div class="form-group full">
+
+                    <label for="description">
+                        Description
+                    </label>
+
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="5"
+                        placeholder="Describe the issue in detail..."
+                    ></textarea>
+
+                </div>
+
+            </div>
+
+            <button
+                type="submit"
+                class="btn"
+            >
+                Submit Civic Report
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>
